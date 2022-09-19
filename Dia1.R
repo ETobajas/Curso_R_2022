@@ -209,4 +209,6 @@ composition %>%
 library(usethis)
 git_sitrep()
 
+datos<- read_csv(here("Data/github_data.csv"))
 
+plot(happiness~work.hours, data=datos)
