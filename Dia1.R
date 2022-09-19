@@ -213,7 +213,6 @@ datos<- read_csv(here("Data/github_data.csv"))
 
 plot(happiness~work.hours, data=datos)
 
-
 ggplot(datos)+
   geom_point(aes(work.hours, happiness))
 
